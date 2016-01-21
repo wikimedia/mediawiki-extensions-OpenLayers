@@ -1,0 +1,31 @@
+{
+	"name": "mediawiki/open-layers",
+	"type": "mediawiki-extension",
+	"description": "",
+	"keywords": [
+		"OpenLayers",
+		"Wiki",
+		"MediaWiki"
+	],
+	"homepage": "https://www.mediawiki.org/wiki/Extension:OpenLayers",
+	"license": "GPL-2.0+",
+	"authors": [
+		{
+			"name": "Yaron Koren",
+			"homepage": "http://yaronkoren.com/"
+		},
+		{
+			"name": "Paladox",
+		}
+	],
+	"require-dev": {
+		"jakub-onderka/php-parallel-lint": "0.9.2",
+		"mediawiki/mediawiki-codesniffer": "0.5.1"
+	},
+	"scripts": {
+		"test": [
+			"parallel-lint . --exclude vendor",
+			"phpcs -p -s"
+		]
+	}
+}

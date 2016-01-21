@@ -1,0 +1,31 @@
+{
+	"@Note": "When updating this file please also update SemanticForms.php with the same changes.",
+	"name": "OpenLayers",
+	"version": "1.0.0",
+	"author": [
+		"Yaron Koren",
+		"Paladox",
+		"..."
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:OpenLayers",
+	"descriptionmsg": "openlayers-desc",
+	"type": "other",
+	"MessagesDirs": {
+		"OpenLayers": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"ext.semanticforms.main": {
+			"scripts": [
+				"libs/OpenLayers/OpenLayers.js"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "OpenLayers"
+	},
+	"config": {},
+	"manifest_version": 1
+}
