@@ -13,6 +13,7 @@ module.exports = function ( grunt ) {
 			},
 			all: [
 				'**/*.js',
+				'!libs/OpenLayers/**',
 				'!node_modules/**'
 			]
 		},
