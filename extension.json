@@ -17,7 +17,7 @@
 		]
 	},
 	"ResourceModules": {
-		"ext.semanticforms.main": {
+		"ext.openlayers.main": {
 			"scripts": [
 				"libs/OpenLayers/OpenLayers.js"
 			]
