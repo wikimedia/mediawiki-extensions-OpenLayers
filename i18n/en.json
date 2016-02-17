@@ -6,5 +6,5 @@
 		]
 	},
 	"openlayers-extensionname": "OpenLayers",
-	"openlayers-desc": "This extension is fore adding the OpenLayers modules to other extensions."
+	"openlayers-desc": "Makes OpenLayers module available"
 }
