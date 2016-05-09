@@ -14,25 +14,25 @@ if ( version_compare( $GLOBALS['wgVersion'], '1.26c', '>' ) ) {
 	}
 }
 
-$GLOBALS['wgExtensionCredits']['other'][] = array(
+$GLOBALS['wgExtensionCredits']['other'][] = [
 	'path' => __FILE__,
 	'name' => 'OpenLayers',
 	'version' => '1.0.0',
-	'author' => array( 'Yaron Koren', 'Paladox', '...' ),
+	'author' => [ 'Yaron Koren', 'Paladox', '...' ],
 	'url' => 'https://www.mediawiki.org/wiki/Extension:OpenLayers',
 	'descriptionmsg' => 'openlayers-desc',
 	'license-name' => 'GPL-2.0+'
-);
+];
 
 // Register client-side modules.
-$openlayersResourceTemplate = array(
+$openlayersResourceTemplate = [
 	'localBasePath' => __DIR__,
 	'remoteExtPath' => 'OpenLayers'
-);
-$GLOBALS['wgResourceModules'] += array(
-	'ext.openlayers.main' => $openlayersResourceTemplate + array(
-		'scripts' => array(
+];
+$GLOBALS['wgResourceModules'] += [
+	'ext.openlayers.main' => $openlayersResourceTemplate + [
+		'scripts' => [
 			'libs/OpenLayers/OpenLayers.js'
-		),
-	),
-);
+		],
+	],
+];
