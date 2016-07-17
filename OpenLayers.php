@@ -1,6 +1,6 @@
 <?php
 
-if ( version_compare( $GLOBALS['wgVersion'], '1.26c', '>' ) ) {
+if ( version_compare( $GLOBALS['wgVersion'], '1.27c', '>' ) ) {
 	if ( function_exists( 'wfLoadExtension' ) ) {
 		wfLoadExtension( 'OpenLayers' );
 		// Keep i18n globals so mergeMessageFileList.php doesn't break
