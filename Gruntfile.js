@@ -14,7 +14,8 @@ module.exports = function ( grunt ) {
 			all: [
 				'**/*.js',
 				'!libs/OpenLayers/**',
-				'!node_modules/**'
+				'!node_modules/**',
+				'!vendor/**'
 			]
 		},
 		jscs: {
@@ -24,7 +25,8 @@ module.exports = function ( grunt ) {
 		jsonlint: {
 			all: [
 				'**/*.json',
-				'!node_modules/**'
+				'!node_modules/**',
+				'!vendor/**'
 			]
 		}
 	} );
