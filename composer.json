@@ -8,7 +8,7 @@
 		"MediaWiki"
 	],
 	"homepage": "https://www.mediawiki.org/wiki/Extension:OpenLayers",
-	"license": "GPL-2.0+",
+	"license": "GPL-2.0-or-later",
 	"authors": [
 		{
 			"name": "Yaron Koren",

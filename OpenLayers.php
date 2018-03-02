@@ -21,7 +21,7 @@ $GLOBALS['wgExtensionCredits']['other'][] = [
 	'author' => [ 'Yaron Koren', 'Paladox', '...' ],
 	'url' => 'https://www.mediawiki.org/wiki/Extension:OpenLayers',
 	'descriptionmsg' => 'openlayers-desc',
-	'license-name' => 'GPL-2.0+'
+	'license-name' => 'GPL-2.0-or-later'
 ];
 
 // Register client-side modules.
