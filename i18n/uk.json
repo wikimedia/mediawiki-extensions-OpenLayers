@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"DDPAT",
 			"Piramidion"
 		]
 	},
+	"openlayers-extensionname": "OpenLayers",
 	"openlayers-desc": "Робить модуль OpenLayers доступним"
 }
