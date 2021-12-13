@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Wladek92"
+			"Wladek92",
+			"Verdy p"
 		]
 	},
+	"openlayers-extensionname": "OpenLayers",
 	"openlayers-desc": "Rend disponible le module OpenLayers"
 }
