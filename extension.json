@@ -1,5 +1,4 @@
 {
-	"@Note": "When updating this file please also update OpenLayers.php with the same changes.",
 	"name": "OpenLayers",
 	"namemsg": "openlayers-extensionname",
 	"version": "1.0.0",
