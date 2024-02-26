@@ -22,7 +22,8 @@
 	"ResourceModules": {
 		"ext.openlayers.main": {
 			"scripts": [
-				"libs/OpenLayers/OpenLayers.js"
+				"libs/OpenLayers/OpenLayers.js",
+				"resources/ext.openlayers.externalCode.binding.js"
 			]
 		}
 	},
