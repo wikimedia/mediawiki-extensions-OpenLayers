@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"openlayers-extensionname": "OpenLayers",
+	"openlayers-desc": "Sprístupňuje modul OpenLayers"
+}
